@@ -1,0 +1,33 @@
+.bag {
+  flex: 0.25;
+}
+
+.bag__text {
+  color: black !important;
+  font-weight: 800;
+}
+
+.emoji {
+  height: 20vh;
+  width: 20vw;
+  margin-top: 20px;
+  color: var(--soco-grey);
+}
+
+.bagContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+}
+
+.description {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.advertisement {
+  font-size: 14px;
+  color: var(--soco-grey);
+}

@@ -1,0 +1,38 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  color: var(--soco-grey);
+  border-right: 1px solid var(--soco-grey);
+  flex: 0.25;
+  /* min-width: 250px; */
+  padding: 0 20px;
+}
+
+.sidebar--active {
+  color: var(--soco-blue);
+}
+
+.sidebar > p:hover {
+  background-color: #e8f5fe;
+  border-radius: 5px;
+  transition: color 100ms ease-out;
+}
+
+.sidebar > p {
+  margin: 5px;
+  margin-right: 0vw;
+  cursor: pointer;
+}
+
+.categories {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  color: var(--soco-blue);
+  cursor: pointer;
+}
+
+.categories > p {
+  margin-right: 9px;
+}

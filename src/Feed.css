@@ -1,0 +1,26 @@
+.feed {
+  flex: 0.6;
+  border-right: 1px solid var(--soco-grey);
+  min-width: fit-content;
+  /* overflow-y: scroll; */
+}
+
+.item__aggregate {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.item__aggregate > p {
+  margin: 10px;
+  font-size: 15px;
+  color: var(--soco-grey);
+  font-weight: 800;
+}
+
+.item__aggregate > button {
+  color: white;
+  background-color: var(--soco-blue);
+  border: none;
+  border-radius: 5px;
+}
